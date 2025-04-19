@@ -1,13 +1,8 @@
-// index.js - purpose and description here
-// Author: Daniel Freysson
+// index.js - Hang Man
+//An implemenation of the game
+// Author: Daniel Freysson dfreysso@ucsc.edu
 // Date:4/19/25
 
-// Constants
-
-// Functions
-
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
 //1. Display a hanging post
 //2. Player 1 inputs a word
 //3. # of lines generate based on the input word length
@@ -20,6 +15,14 @@ function myFunction(param1, param2) {
   //a. Player 2 loses
 //6. If the word is guessed before there is a complete man on the hang post:
   //a. Player 2 wins
+
+// Constants
+
+// Functions
+
+// this is an example function and this comment tells what it doees and what parameters are passed to it.
+function myFunction(param1, param2) {
+  // function code
   // return results;
 }
 
