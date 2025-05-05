@@ -26,8 +26,7 @@ function sortUserName() {
     return nameSorted;
 }
 //output
-document.writeln("Your sorted name is: ",
-    sortUserName(), "</br>");
+document.writeln("Your sorted name is: ", sortUserName(), "</br>");
 
 
 // this is an example function and this comment tells what it doees and what parameters are passed to it.
