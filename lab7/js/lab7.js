@@ -7,7 +7,7 @@
 
 // Functions
 
-function sortedUserName() {
+function sortUserName() {
     // Prompt the user for their name
     var userName = window.prompt("What is your name so I can fix it?");
     console.log("userName =", userName);
