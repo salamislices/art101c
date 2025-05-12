@@ -8,9 +8,9 @@
 
 // Functions
 // add button to challenge section  
-$("#challenge").append("<button id='button-challenge'>Make Special</button>");
-$("#problems").append("<button id='button-problems'>Make Special</button>");
-$("#results").append("<button id='button-results'>Make Special</button>");
+$("#challenge").append("<button id='button-challenge'>challenge button</button>");
+$("#problems").append("<button id='button-problems'>problems button</button>");
+$("#results").append("<button id='button-results'>results button</button>");
 
 // add a click listener to the challenge button
 $("#button-challenge").click(function(){
