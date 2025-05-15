@@ -20,10 +20,11 @@ function generateRandomText() {
 // click listener for button
 $("#make-convo").click(function(){
   // get new fake dialogue
-  const newText = generateRandomText();
+    const newText = generateRandomText();
 
   // append a new div to our output div
-  $("#output").append('<div class="text"><p>' + newText + '</p></div>');
+    $("#output").find(".text").remove();
+    $("#output").append('<div class="text"><p>' + newText + '</p></div>');
 });
 // this is an example function and this comment tells what it doees and what parameters are passed to it.
 function myFunction(param1, param2) {
