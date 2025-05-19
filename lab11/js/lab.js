@@ -13,9 +13,10 @@ function sortString(inputString) {
 $("#submit").click(function(){
     const userName = $("#user-name").val();
     userNameSorted = sortString(userName);
+    $("#output").html('<div class="text"><p>' + userNameSorted + '</p></div>');
 });
 
-$("#output").html('<div class="text"><p>' + userNameSorted + '</p></div>');
+
 
 // this is an example function and this comment tells what it doees and what parameters are passed to it.
 function myFunction(param1, param2) {
