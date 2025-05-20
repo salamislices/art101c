@@ -12,7 +12,7 @@ function sortString(inputString) {
 
 $("#submit").click(function(){
     const userName = $("#user-name").val();
-    userNameSorted = sortString(userName);
+    const userNameSorted = sortString(userName);
     $("#output").html('<div class="text"><p>' + userNameSorted + '</p></div>');
 });
 
