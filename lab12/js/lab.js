@@ -28,8 +28,8 @@ function main() {
     $("#button").click(function() {
         let name = $("#input").val();           // Get value from input field
         let house = sortingHat(name);           // Run sortingHat to get house
-        $("#output").append(                    // Display result in #output
-            <p>The Sorting Hat has sorted you into <strong>${house}</strong>!</p>
+        $("#output").append(
+            "<p>The Sorting Hat has sorted you into <strong>" + house + "</strong>!</p>"
         );
     });
 }
