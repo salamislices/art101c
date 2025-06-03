@@ -1,0 +1,41 @@
+/* Styles specific to Lab 15 */
+
+/* Section styling */
+.minor-section {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 1px #888;
+  background-color: #DDD8C4;
+}
+
+/* Example text bubble styling */
+.text p {
+  display: inline-block;
+  max-width: 60%;
+  margin: 3px;
+  padding: 5px 10px;
+  border-radius: 15px;
+  background-color: rgb(180, 255, 150);
+  color: rgb(0, 0, 0);
+  font-family: sans-serif;
+  font-size: 0.8em;
+}
+
+/* Output and button layout */
+#output {
+  margin: 10px 0;
+}
+
+#activate {
+  margin-top: 10px;
+  padding: 10px 15px;
+  font-size: 1em;
+  background-color: #87c38f;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#activate:hover {
+  background-color: #6cab76;
+}
