@@ -1,13 +1,15 @@
+// Lab 16 - JSON and APIs
+// Author: Daniel
+// Date: 6/5/25
+
 $(document).ready(function () {
     console.log("Document loaded...");
 
     $.ajax({
-        url: "https://api.allorigins.win/get?url=https://xkcd.com/info.0.json",
+        url: "https://api.codetabs.com/v1/proxy?quest=https://xkcd.com/info.0.json",
         type: "GET",
         dataType: "json",
-        success: function (response) {
-            const comicObj = JSON.parse(response.contents);
-
+        success: function (comicObj) {
             console.log("API success:", comicObj);
 
             const title = $("<h3>").text(comicObj.title);
@@ -21,7 +23,7 @@ $(document).ready(function () {
             $("#output").append(title, image, caption);
         },
         error: function (jqXHR, textStatus, errorThrown) {
-            console.log("Error:", textStatus, errorThrown);
+            console.error("API call failed:", textStatus, errorThrown);
             $("#output").text("An error occurred while fetching the comic.");
         }
     });
